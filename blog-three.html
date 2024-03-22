@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG Site 3</title>
+</head>
+<body>
+    <header>
+        <h1>Michael Dacanay</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog-one.html">BLOG 1</a></li>
+                <li><a href="blog-two.html">BLOG 2</a></li>
+                <li><a href="blog-three.html">BLOG 3</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <header>
+            <h2>Frameworks in Web Development</h2>
+            <p>By: Michael Dacanay</p>
+
+            <h3>What are Frameworks in Web Development?</h3>
+            <p>
+                A <strong>framework</strong> in web development refers to a pre-built, structured set of tools, libraries, and conventions that provide a foundation for building web applications or websites. Frameworks aim to streamline and simplify the development process by offering reusable code, standardizing common tasks, and promoting best practices.
+            </p>
+
+            <h4>Front-End Framework</h4>
+            <p>
+                One popular type of framework in web development is a frontend framework, which focuses on the user interface and client-side interactions. These frameworks typically include libraries for managing the structure, layout, and behavior of web pages, as well as tools for handling user input, making HTTP requests, and updating the DOM (Document Object Model) dynamically.
+            </p>
+
+            <h4>Back-End Framework</h4>
+            <p>
+                Another type is backend frameworks, which primarily deal with server-side logic, database interactions, and routing requests. These frameworks often provide tools for handling authentication, authorization, data validation, and other server-related tasks.
+            </p>
+
+            <h4>Some examples of frontend frameworks include:</h4>
+
+            <ol>
+                <li><strong>React:</strong> Developed by Facebook, React is a JavaScript library for building user interfaces, focusing on component-based architecture and virtual DOM rendering.</li><br>
+                <li><strong>Angular:</strong> Developed by Google, Angular is a TypeScript-based framework for building single-page applications, offering features like two-way data binding and dependency injection.</li><br>
+                <li><strong>Vue.js:</strong> Vue.js is a progressive JavaScript framework for building user interfaces, known for its simplicity and flexibility, with a focus on the view layer.</li><br>
+                <li><strong>Svelte:</strong> Svelte is a relatively newer framework that shifts much of the work to compile time, resulting in highly optimized and efficient code. It allows developers to write components using a syntax similar to HTML, CSS, and JavaScript, and then compiles them into highly optimized vanilla JavaScript code.</li><br>
+                <li><strong>Ember.js:</strong> Ember.js is a framework for building ambitious web applications. It provides a strong convention over configuration approach, making it well-suited for large-scale applications. Ember.js emphasizes developer productivity and focuses on creating rich, interactive web experiences.</li>
+
+            </ol>
+
+            <h4>Some examples of backend frameworks include:</h4>
+
+            <ol>
+                <li><strong>Express.js:</strong> Express.js is a popular backend framework for Node.js that allows you to build web applications and APIs. While Express itself doesn't provide built-in database functionality, it integrates seamlessly with various database systems using middleware such as Mongoose for MongoDB or Sequelize for SQL databases like PostgreSQL, MySQL, and SQLite.</li><br>
+                <span><strong>Here are some key aspects and features of Express.js:</strong></span>
+                <ul><br>
+                    <li><strong>Minimalistic:</strong> Express.js is a lightweight and unopinionated framework, providing essential features for web development without imposing strict conventions or structure. It allows developers the flexibility to organize their code and architecture according to their preferences and project requirements.</li><br>
+                    <li><strong>Middleware:</strong> Middleware functions are a core concept in Express.js. Middleware functions can be used to perform tasks such as processing incoming requests, modifying response objects, authenticating users, logging requests, and error handling. Express.js allows developers to create custom middleware functions and use third-party middleware packages to extend functionality.</li><br>
+                    <li><strong>Routing:</strong> Express.js provides a simple and intuitive routing mechanism that allows developers to define routes based on HTTP methods and URL patterns. Routes can be used to handle different types of requests and execute specific logic based on the request parameters.</li><br>
+                    <li><strong>Template Engines:</strong> While Express.js itself does not include a built-in template engine, it provides support for various template engines such as EJS, Handlebars, Pug (formerly Jade), and Mustache. Template engines enable developers to generate dynamic HTML content by combining data with predefined templates.</li><br>
+                    <li><strong>Static File Serving:</strong> Express.js can serve static files such as HTML, CSS, JavaScript, images, and other assets using built-in middleware like <strong>express.static</strong>. This feature simplifies the process of serving static content and improves performance by efficiently handling file requests.</li><br>
+                    <li><strong>Error Handling:</strong> Express.js provides mechanisms for handling errors that occur during request processing. Developers can define error-handling middleware functions to catch errors and respond to clients with appropriate error messages or status codes.</li><br>
+                    <li><strong>Middleware Ecosystem:</strong> Express.js has a vast ecosystem of middleware modules available through npm, allowing developers to extend its functionality easily. Middleware modules can be used to add additional features such as authentication, session management, compression, and more.</li><br>
+                    <li><strong>HTTP Utility Methods:</strong> Express.js provides a set of HTTP utility methods (req, res, next) that simplify the process of handling HTTP requests and responses. These methods offer functionalities like setting headers, sending responses, redirecting requests, and handling cookies.</li><br>
+                    <li><strong>Integration with Node.js:</strong> Express.js is built on top of Node.js, which allows it to take advantage of Node.js's non-blocking I/O model and asynchronous programming capabilities. This integration enables Express.js to handle a large number of concurrent connections efficiently.</li><br>
+                    <li><strong>Middleware Stacks:</strong> Express.js allows developers to define middleware stacks, where multiple middleware functions can be executed sequentially for a given route or set of routes. This feature enables developers to modularize their application logic and reuse middleware across different routes.</li><br>
+                    <li><strong>Community and Documentation:</strong> Express.js has a large and active community of developers who contribute to its ongoing development and maintenance. The framework also has comprehensive documentation with examples and tutorials, making it easy for developers to get started and learn how to use Express.js effectively.</li><br>
+                </ul>
+                <li><strong>Django:</strong> Django is a high-level Python web framework that comes with its own Object-Relational Mapping (ORM) system, allowing developers to interact with databases without writing SQL queries directly. Django supports multiple databases, including PostgreSQL, MySQL, SQLite, and Oracle.</li><br>
+                <span><strong>Here are some key aspects and features of Django:</strong></span>
+
+                
+                <ul><br>
+                    <li><strong>MTV Architecture:</strong> Django follows the Model-Template-View (MTV) architecture pattern, which is similar to the Model-View-Controller (MVC) pattern. This architecture separates the data (model), presentation (template), and logic (view) layers, making the codebase easier to maintain and scale.</li><br>
+                    <li><strong>ORM (Object-Relational Mapping):</strong> Django includes a powerful ORM that allows developers to interact with the database using Python objects instead of SQL queries. This abstraction simplifies database operations, promotes code reusability, and reduces the risk of SQL injection attacks.</li><br>
+                    <li><strong>Admin Interface:</strong> Django comes with a built-in admin interface that automatically generates a user-friendly interface for managing site content. Developers can define models and register them with the admin interface to enable CRUD (Create, Read, Update, Delete) operations without writing custom admin views.</li><br>
+                    <li><strong>URL Routing:</strong> Django provides a flexible URL routing mechanism that maps URLs to view functions or class-based views. URL patterns are defined using regular expressions or simple string matching, allowing developers to create clean and expressive URL structures.</li><br>
+                    <li><strong>Form Handling:</strong> Django includes a robust form handling library that simplifies the process of validating and processing user input. Developers can define forms using Python classes and leverage built-in form widgets, validation rules, and error handling mechanisms.</li><br>
+                    <li><strong>Template Engine:</strong> Django comes with its own template engine, which provides a powerful syntax for generating HTML dynamically. Templates support template inheritance, template tags, filters, and other features that facilitate code reuse and maintainability.</li><br>
+                    <li><strong>Authentication and Authorization:</strong> Django includes built-in support for user authentication and authorization. Developers can integrate authentication mechanisms such as login, logout, password reset, and user registration with just a few lines of code. Django also provides fine-grained permission control for restricting access to views and resources.</li><br>
+                    <li><strong>Security Features:</strong> Django emphasizes security best practices and includes features to mitigate common web security vulnerabilities. This includes protection against CSRF (Cross-Site Request Forgery) attacks, XSS (Cross-Site Scripting) attacks, SQL injection, and more.</li><br>
+                    <li><strong>Middleware:</strong> Django allows developers to define middleware components that can process requests and responses before and after they reach the view layer. Middleware can be used for tasks such as authentication, logging, caching, and error handling.</li><br>
+                    <li><strong>Internationalization and Localization:</strong> Django supports internationalization (i18n) and localization (l10n) out of the box, allowing developers to build multilingual web applications. Developers can define translations for static text strings and use built-in utilities for formatting dates, times, and numbers according to different locales.</li><br>
+                    <li><strong>Scalability:</strong> Django is designed to scale from small projects to large, high-traffic websites. It provides features such as caching, database connection pooling, and support for distributed architectures to improve performance and scalability.</li><br>
+                    <li><strong>Community and Ecosystem:</strong> Django has a vibrant community of developers who contribute to its development, share resources, and provide support through forums, mailing lists, and social media channels. The framework also has a rich ecosystem of third-party packages and extensions that extend its functionality and add new features.</li><br>
+                </ul>
+
+                <li><strong>Ruby on Rails:</strong> Ruby on Rails is a web application framework written in Ruby that provides ActiveRecord, an ORM layer that abstracts database interactions. Rails supports several database systems, including PostgreSQL, MySQL, SQLite, and SQL Server.</li><br>
+
+                <span><strong>Here are some key aspects and features of Ruby on Rails:</strong></span>
+
+                <ul><br>
+                    <li><strong>Convention over Configuration:</strong> Rails reduces the need for developers to specify configurations by following a set of conventions. This allows developers to focus more on writing application code rather than configuring the framework.</li><br>
+                    <li><strong>Model-View-Controller (MVC) Architecture:</strong> Rails follows the MVC pattern, separating the application logic into three interconnected components: Models (representing data and business logic), Views (representing the presentation layer), and Controllers (handling user requests and coordinating interactions between Models and Views).</li><br>
+                    <li><strong>Active Record:</strong> Rails includes the Active Record ORM (Object-Relational Mapping) framework, which simplifies database operations by mapping database tables to Ruby objects. This abstraction allows developers to interact with the database using familiar object-oriented paradigms rather than writing raw SQL queries.</li><br>
+                    <li><strong>RESTful Routing:</strong> Rails encourages the use of RESTful routing, where routes are mapped to CRUD (Create, Read, Update, Delete) operations on resources. This approach leads to clean and predictable URL structures and promotes adherence to RESTful principles.</li><br>
+                    <li><strong>Scaffolding:</strong> Rails provides scaffolding generators that automatically generate boilerplate code for creating Models, Views, and Controllers based on database tables. This feature enables rapid prototyping and scaffolding of basic CRUD functionality.</li><br>
+                    <li><strong>Active Support:</strong> Rails includes the Active Support library, which provides a collection of utility classes and methods for common tasks such as string manipulation, date and time handling, JSON encoding/decoding, and more.</li><br>
+                    <li><strong>Action View:</strong> Rails includes Action View, a component responsible for generating HTML responses using embedded Ruby (ERB) templates. Views can be rendered using layouts and partials, and they support features like form helpers, asset tagging, and internationalization.</li><br>
+                    <li><strong>Security Features:</strong> Rails includes built-in security features to protect against common web vulnerabilities such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), SQL injection, and parameter tampering. These features include input validation, parameter sanitization, and secure session management.</li><br>
+                    <li><strong>Testing Frameworks:</strong> Rails provides built-in support for testing through frameworks like RSpec and Minitest. Developers can write unit tests, integration tests, and system tests to ensure the correctness and reliability of their applications.</li><br>
+                    <li><strong>Asset Pipeline:</strong> Rails includes an asset pipeline for managing and processing static assets such as JavaScript, CSS, and images. The asset pipeline provides features like asset concatenation, minification, and fingerprinting to optimize asset delivery and improve page load times.</li><br>
+                    <li><strong>Active Job:</strong> Rails includes Active Job, a framework for queuing and executing background jobs asynchronously. Active Job provides a unified interface for working with different queuing backends such as Sidekiq, Resque, Delayed Job, and more.</li><br>
+                    <li><strong>Community and Ecosystem:</strong> Rails has a vibrant community of developers who contribute to its development, share resources, and provide support through forums, mailing lists, and social media channels. The framework also has a rich ecosystem of gems (Ruby libraries) and plugins that extend its functionality and add new features.</li><br>
+
+                </ul>
+
+
+                
+                <li><strong>ASP.NET Core:</strong> ASP.NET Core is a cross-platform, high-performance framework for building web applications with .NET. It includes Entity Framework Core, a lightweight and extensible ORM framework, which supports a wide range of databases, including SQL Server, PostgreSQL, MySQL, SQLite, and more.</li><br>
+                <li><strong>PHP (Hypertext Preprocessor)</strong> is a widely used server-side scripting language that is especially suited for web development. It is an open-source language, meaning it is freely available and continually developed by a community of contributors. PHP is embedded within HTML code and is executed on the server, generating HTML content dynamically before it is sent to the client's web browser.</li>
+            </ol>
+
+        </header>
+    </article>
+
+
+    <footer>
+            Copyright &copy; 2024 by: Michael Dacanay All Rights Reserved.
+    </footer>
+</body>
+</html>
